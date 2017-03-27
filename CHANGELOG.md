@@ -1,6 +1,10 @@
 # Changelog
 
 
+## (local changes)
+
+- Add previews with left and right halves separate.
+
 ## 2.3.4 (Sep 3, 2016)
 
 - Fixed a bug of cropping in view mode 1 and 2.

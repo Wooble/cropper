@@ -5,7 +5,7 @@
  * Copyright (c) 2014-2017 Fengyuan Chen and contributors
  * Released under the MIT license
  *
- * Date: 2017-03-28T18:07:23.132Z
+ * Date: 2017-04-24T12:45:11.955Z
  */
 
 (function (factory) {
@@ -1199,10 +1199,6 @@
 
       if (cropBox.width > cropBox.maxWidth || cropBox.width < cropBox.minWidth) {
         cropBox.left = cropBox.oldLeft;
-      }
-
-      if (cropBox.height > cropBox.maxHeight || cropBox.height < cropBox.minHeight) {
-        cropBox.top = cropBox.oldTop;
       }
 
       cropBox.width = min(max(cropBox.width, cropBox.minWidth), cropBox.maxWidth);

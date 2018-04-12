@@ -85,7 +85,7 @@
         var data = $this.data(DATA_PREVIEW);
 
         $this.css({
-          width: data.width,
+          width: '200%',
           height: data.height
         }).html(data.html).removeData(DATA_PREVIEW);
       });
@@ -94,7 +94,7 @@
         var data = $this.data(DATA_PREVIEW);
 
         $this.css({
-          width: '100%',
+          width: '200%',
           height: data.height
         }).html(data.html).removeData(DATA_PREVIEW);
       });
@@ -103,7 +103,7 @@
         var data = $this.data(DATA_PREVIEW);
 
         $this.css({
-          width: '100%',
+          width: '200%',
           height: data.height
         }).html(data.html).removeData(DATA_PREVIEW);
       });
@@ -125,7 +125,7 @@
       }
 
       this.$clone2.css({
-        width: width,
+        width: '200%',
         height: height,
         marginLeft: -left,
         marginTop: -top,
@@ -156,7 +156,7 @@
           width: newWidth,
           height: newHeight
         }).find('img').css({
-          width: width * ratio,
+          width: '200%',
           height: height * ratio,
           marginLeft: -left * ratio,
           marginTop: -top * ratio,
@@ -189,7 +189,7 @@
           width: '100%',
           height: newHeight * 2
         }).find('img').css({
-          width: width * ratio * 2,
+          width: '200%',
           height: height * ratio * 2,
           marginLeft: -left * ratio,
           marginTop: -top * ratio * 2,
@@ -220,7 +220,7 @@
           width: newWidth * 2,
           height: newHeight * 2
         }).find('img').css({
-          width: width * ratio * 2,
+          width: '200%',
           height: height * ratio * 2,
           marginLeft: -left * ratio,
           marginTop: -top * ratio * 2,

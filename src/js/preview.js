@@ -25,7 +25,7 @@
          */
         $this.html(
           '<img' + crossOrigin + ' src="' + url + '" style="' +
-          'display:block;width:100%;height:auto;' +
+          'display:block;width:200vw;height:auto;' +
           'min-width:0!important;min-height:0!important;' +
           'max-width:none!important;max-height:none!important;' +
           'image-orientation:0deg!important;">'
@@ -48,7 +48,7 @@
          */
         $this.html(
           '<img' + crossOrigin + ' src="' + url + '" style="' +
-          'display:block;width:100%;height:auto;' +
+          'display:block;width:200vw;height:auto;' +
           'min-width:0!important;min-height:0!important;' +
           'max-width:none!important;max-height:none!important;' +
           'image-orientation:0deg!important;">'
@@ -71,7 +71,7 @@
          */
         $this.html(
           '<img' + crossOrigin + ' src="' + url + '" style="' +
-          'display:block;width:100%;height:auto;' +
+          'display:block;width:200vw;height:auto;' +
           'min-width:0!important;min-height:0!important;' +
           'max-width:none!important;max-height:none!important;' +
           'image-orientation:0deg!important;">'
@@ -156,7 +156,6 @@
           width: newWidth,
           height: newHeight
         }).find('img').css({
-          width: '200%',
           height: height * ratio,
           marginLeft: -left * ratio,
           marginTop: -top * ratio,
@@ -189,7 +188,6 @@
           width: '100%',
           height: newHeight * 2
         }).find('img').css({
-          width: '200%',
           height: height * ratio * 2,
           marginLeft: -left * ratio,
           marginTop: -top * ratio * 2,
@@ -220,7 +218,6 @@
           width: newWidth * 2,
           height: newHeight * 2
         }).find('img').css({
-          width: '200%',
           height: height * ratio * 2,
           marginLeft: -left * ratio,
           marginTop: -top * ratio * 2,

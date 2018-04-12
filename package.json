@@ -51,8 +51,8 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
-    "jshint": "^2.9.3",
     "jquery": "^1.12.4",
+    "jshint": "^2.9.3",
     "qunitjs": "^2.0.1"
   }
 }
